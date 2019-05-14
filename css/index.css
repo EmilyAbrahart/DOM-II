@@ -226,6 +226,18 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.modal-content {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  width: 25%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: center;
+  border-radius: 2em;
+  border: 2px dashed #C0C0C0;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+}
 img.catch-bus {
   position: absolute;
   z-index: 1;
