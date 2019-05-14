@@ -226,6 +226,10 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+img.catch-bus {
+  position: absolute;
+  z-index: 1;
+}
 .home .intro {
   padding: 90px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
@@ -234,6 +238,7 @@ img {
   background-image: url("../img/fun-bus-background.png");
   height: 300px;
   position: relative;
+  z-index: -5;
 }
 .home .intro img {
   max-width: 100%;
