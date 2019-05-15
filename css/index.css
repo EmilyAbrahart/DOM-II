@@ -226,13 +226,53 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.modal-content {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  width: 25%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+  border-radius: 2em;
+  border: 2px dashed #C0C0C0;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+.del-content {
+  position: fixed;
+  width: 70%;
+  top: 30%;
+  left: 15%;
+  text-align: center;
+  display: none;
+}
+.del-content h2 {
+  font-size: 7rem;
+}
+.del-content p {
+  font-size: 4rem;
+}
+img.catch-bus {
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+}
 .home .intro {
   padding: 90px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
 }
+.home .intro .header-img {
+  background-image: url('../img/fun-bus-background.png');
+  height: 300px;
+  position: relative;
+  z-index: -1;
+}
 .home .intro img {
   max-width: 100%;
   height: auto;
+  position: absolute;
+  top: 70px;
 }
 .home .intro h2 {
   margin-top: 20px;
